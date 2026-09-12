@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="signup-card">
+      <div class="idk"></div>
+      <div id="header">
+        <img class="logo-image" src="./assets/logo.png" alt="logo" />
+
+        <h2 class="title-section">Create an Account</h2>
+
+        <p class="subtitle-text">
+          Access your task, notes, & project anytime, anywhare and keep
+          everything folllowing in one placed
+        </p>
+      </div>
+
+      <form id="signup-form" action="./biodata-raihaan/biodata-raihaan.html" method="post">
+        <section class="input-section">
+          <div class="input-group input-group-username">
+            <label for="username" class="input-label">Username:</label>
+            <input type="text" class="input-field" name="username" />
+          </div>
+
+          <div class="input-group input-group-password">
+            <label for="password" class="input-label">Password:</label>
+            <input type="password" class="input-field" name="password" />
+          </div>
+
+          <button class="primary-btn" type="submit">Login</button>
+        </section>
+
+        <div class="divider-container">
+          <p class="divider-text">Or</p>
+        </div>
+
+        <div class="login-button-container">
+          <button class="apple-button platfrom-button">
+            <img class="apple-logo platfrom-logo" src="./assets/apple.png" alt="" />
+            <a class="apple-link platfrom-link" href="http://" target="_blank" rel="noopener noreferrer">Apple</a>
+          </button>
+
+          <button class="github-button platfrom-button">
+            <img class="github-logo platfrom-logo" src="./assets/github.png" alt="" />
+            <a class="github-link platfrom-link" href="http://" target="_blank" rel="noopener noreferrer">Github</a>
+          </button>
+        </div>
+
+        <div class="signin-link-container">
+          <p class="signin-link-paragraf">
+            Already have an account? <a class="signin-link" href="#">Sign In</a>
+          </p>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
